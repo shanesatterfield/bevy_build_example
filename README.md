@@ -45,7 +45,7 @@ To run just the [web build script](https://github.com/shanesatterfield/bevy_buil
 ./build-web-zip.sh
 ```
 
-### Makefile
+#### Makefile
 
 The [Makefile](https://github.com/shanesatterfield/bevy_build_example/blob/main/Makefile) includes tasks for all of the build targets. To execute just the web target by running the following command.
 
@@ -53,7 +53,7 @@ The [Makefile](https://github.com/shanesatterfield/bevy_build_example/blob/main/
 make web
 ```
 
-### Testing
+#### Testing
 
 If you have Python 3 installed, you can run the following command to start a local HTTP server to test the web build.
 
