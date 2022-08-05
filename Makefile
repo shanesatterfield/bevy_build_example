@@ -1,5 +1,5 @@
 RELEASE_DIR=target/wasm32-unknown-unknown/release
-PROJECT_NAME=bevy-zone-examples
+PROJECT_NAME=bevy_build_example
 OUTPUT_DIR=dist
 OUTPUT_NAME=app
 ZIP_NAME=dist.zip
@@ -43,4 +43,4 @@ web_copy:
 web_bundle:
 	@echo "Bundling"
 	@zip -r ${ZIP_NAME} ${OUTPUT_DIR}/*
-	@cp ${ZIP_NAME} ${OUTPUT_DIR}
+	@mv ${ZIP_NAME} ${OUTPUT_DIR}

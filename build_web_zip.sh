@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RELEASE_DIR=target/wasm32-unknown-unknown/release
-PROJECT_NAME=bevy-zone-examples
+PROJECT_NAME=bevy_build_example
 OUTPUT_DIR=dist
 OUTPUT_NAME=app
 PUBLIC_DIR=public
