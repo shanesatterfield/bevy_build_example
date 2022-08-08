@@ -1,9 +1,11 @@
-RELEASE_DIR=target/wasm32-unknown-unknown/release
+# Replace with the name of your project
 PROJECT_NAME=bevy_build_example
+
 OUTPUT_DIR=dist
 OUTPUT_NAME=app
 ZIP_NAME=dist.zip
 PUBLIC_DIR=public
+RELEASE_DIR=target/wasm32-unknown-unknown/release
 
 all: local web
 
